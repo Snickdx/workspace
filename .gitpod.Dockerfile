@@ -2,7 +2,7 @@ FROM gitpod/workspace-full
 
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:
-RUN apt-get install cron byobu openssh-server
+RUN sudo apt-get install y cron byobu
 
 #
 # More information: https://www.gitpod.io/docs/config-docker/
